@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Fisica</title>
+        <link href="../CEYIM/bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baumans&amp;display=swap">
+        <link rel="stylesheet" href="assets/css/aos.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/Simple-Slider-Simple-Slider.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" data-bs-scroll="true" id="MenuLateral" aria-labelledby="offcanvasWithBothOptionsLabel" data-pgc="MenuLateral">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasWithBothOptionsLabel" class="offcanvas-title" style="font-family: Aldrich, sans-serif;height: 15px;"><strong>Menú</strong></h5>
+                <button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p style="text-align: justify;padding: 0px;padding-top: 0px;padding-bottom: 0px;border-radius: 6px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;background: var(--bs-indigo);padding-left: 10px;margin-top: 10px;border: 3px solid var(--bs-black);"><strong>Conceptos generales</strong></p>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="Pagina 01.html"><span>Definición y clasificación</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 02.html"><span>Unidades de medida</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 03.html"><span>Conversión de unidades</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 04.html"><span>Notación cientifica</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 05.html"><span>Vectores</span></a>
+                </div>
+                <p style="text-align: justify;padding: 0px;padding-top: 0px;padding-bottom: 0px;border-radius: 6px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;background: var(--bs-indigo);padding-left: 10px;margin-top: 10px;border: 3px solid var(--bs-black);"><strong>Cinemática</strong></p>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="Pagina 06.html"><span>Conceptos de cinemática</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 07.html"><span>Movimiento rectilíneo uniforme (MRU)</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 08.html"><span>Movimiento rectilíneo uniformemente acelerado (MRUA)</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina 09.html"><span>Caida libre</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina10.html"><span>Tiro vertical</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina11.html"><span>Tiro horizontal</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina12.html"><span>Tiro parabólico</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina13.html"><span>Movimiento circular uniforme</span></a>
+                </div>
+                <p style="text-align: justify;padding: 0px;padding-top: 0px;padding-bottom: 0px;border-radius: 6px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;background: var(--bs-indigo);padding-left: 10px;margin-top: 10px;border: 3px solid var(--bs-black);"><strong>Dinámica</strong></p>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="Pagina14.html"><span>Leyes de Newton</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina15.html"><span>Ley de la gravitación universal</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina16.html"><span>Diferentes fuerzas</span></a>
+                </div>
+                <p style="text-align: justify;padding: 0px;padding-top: 0px;padding-bottom: 0px;border-radius: 6px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;background: var(--bs-indigo);padding-left: 10px;margin-top: 10px;border: 3px solid var(--bs-black);"><strong>Electrostática</strong></p>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="Pagina17.html"><span>Cargas eléctricas y la ley de Coulomb</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina18.html"><span>Campo eléctrico</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina19.html"><span>Potencial eléctrico</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina20.html"><span>Diferencia de potencial</span></a>
+                </div>
+                <p style="text-align: justify;padding: 0px;padding-top: 0px;padding-bottom: 0px;border-radius: 6px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;background: var(--bs-indigo);padding-left: 10px;margin-top: 10px;border: 3px solid var(--bs-black);"><strong>Electrodinámica</strong></p>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="Pagina21.html"><span>Corriente eléctrica</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina22.html"><span>Resistencia eléctrica</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina23.html"><span>Ley de Ohm</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina24.html"><span>Circuitos eléctricos en serie</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina25.html"><span>Circuitos eléctricos en paralelo</span></a>
+                    <a class="list-group-item list-group-item-action" href="Pagina26.html"><span>Circuitos eléctricos en serie-paralelo (mixtos)</span></a>
+                </div>
+                <p style="text-align: justify;padding: 0px;padding-top: 0px;padding-bottom: 0px;border-radius: 6px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;background: var(--bs-indigo);padding-left: 10px;margin-top: 10px;border: 3px solid var(--bs-black);"><strong>Termodinámica</strong></p>
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action" href="Pagina27.html"><span>Temperatura</span></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-primary" style="margin-bottom: 10px;box-shadow: 0px 10px 17px;" data-pgc="Encabezado">
+            <div class="container-fluid">
+                <div class="d-md-flex justify-content-start justify-content-md-center align-items-md-center class=&quot;align-items-xl-center container-fluid justify-content-xl-center&quot;">
+                    <button class="btn btn-primary border-2 border-dark border" type="button" data-bs-toggle="offcanvas" data-bs-target="#MenuLateral" aria-controls="offcanvasWithBothOptions" style="margin-right: 11px;width: 42px;padding: 2px;padding-right: 2px;padding-left: 2px;">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h6 class="fw-bold text-white" style="margin-bottom: 0px;font-family: Baumans, serif;">Física -&nbsp;</h6>
+                    <h6 class="fw-bold text-dark text-bg-primary" style="--bs-secondary: #7801c8;--bs-secondary-rgb: 120,1,200;margin-bottom: 0px;font-family: Baumans, serif;padding-left: 0px;" data-pgc-edit="Tema">Unidades de medida</h6>
+                </div>
+            </div>
+        </nav>
+        <div class="container-md &quot;border border-2 border-dark rounded-5&quot;" style="border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;padding-right: 15px;padding-left: 15px;border: 3px solid var(--bs-black);margin-top: px;">
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;">La&nbsp;<strong><span style="color: rgb(0, 91, 191);">Física</span></strong>&nbsp;se encarga del estudio del universo a través del estudio de un&nbsp;<strong><span style="color: rgb(0, 91, 191);">sistema físico.</span></strong>&nbsp;Son ejemplos de sistemas físicos&nbsp;<em>una estrella, un haz luminoso, un átomo&nbsp;de un elemento, un resorte, el sistema Tierra-Luna o un circuito eléctrico</em>,&nbsp;entre otros.&nbsp;<br><br>El estudio se lleva a cabo a través de la observación y la medición de&nbsp;<strong>propiedades</strong>&nbsp;o&nbsp;<strong>características</strong>&nbsp;de un&nbsp;<strong>sistema físico</strong>.<br><br><br><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong>&nbsp;<span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) ; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) ;">Magnitudes físicas</span>&nbsp;</strong></span>Se llama&nbsp;<strong><span style="color: rgb(0, 128, 255);">magnitud</span></strong>&nbsp;a todo aquello que&nbsp;<strong>puede ser medido</strong>.<br><br>Las&nbsp;<strong>propiedades</strong>&nbsp;que son susceptibles de ser medidas, reciben el nombre de&nbsp;<strong><span style="color: rgb(0, 91, 191);">magnitudes físicas</span></strong>. Así,&nbsp;<em>la longitud, la masa, la velocidad, el tiempo y la&nbsp;temperatura</em>, son ejemplos de magnitudes físicas.<br><br>Otras&nbsp;<strong>propiedades</strong>, como&nbsp;<em>el olor, el sabor, la bondad, la belleza</em>,&nbsp;<strong>no son&nbsp;magnitudes físicas</strong>, ya que&nbsp;<strong>no se pueden medir</strong>.<br><br>Existen&nbsp;<strong>magnitudes físicas</strong>&nbsp;que son independientes de las demás y reciben&nbsp;el nombre de&nbsp;<strong><span style="color: rgb(0, 91, 191);">magnitudes fundamentales</span></strong>; son aquellas que&nbsp;<strong>no se definen&nbsp;en función de otras magnitudes físicas</strong>, entre ellas mencionamos&nbsp;<em>la&nbsp;longitud, la masa y el tiempo</em>.<br><br>Algunas magnitudes&nbsp;<strong>se definen a partir de las magnitudes fundamentales&nbsp;</strong>y reciben el nombre de&nbsp;<strong><span style="color: rgb(0, 91, 191);">magnitudes derivadas</span></strong>. Las&nbsp;<strong>magnitudes derivadas</strong>&nbsp;resultan de multiplicar o dividir&nbsp;entre sí las&nbsp;<strong>magnitudes fundamentales</strong>. Por ejemplo,&nbsp;<em>la velocidad</em>&nbsp;de un objeto se obtiene a partir de la división de la longitud entre el tiempo,&nbsp;por lo tanto,&nbsp;<em>la velocidad</em>&nbsp;es una&nbsp;<strong>magnitud derivada</strong>.<br><br><br><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong><span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) ; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) ;">&nbsp;Unidad de medida&nbsp;</span></strong><br></span>Es el valor de una propiedad (generalmente es igual a 1) de un objeto que se toma como&nbsp;<strong>referencia</strong>&nbsp;(<strong><span style="color: rgb(0, 128, 255);">unidad de medida</span></strong>&nbsp;o&nbsp;<strong><span style="color: rgb(0, 128, 255);">patrón</span></strong>).&nbsp;Una de las características principales que&nbsp;debe cumplir un patrón de medida es que sea&nbsp;<strong>reproducible e invariable</strong>.&nbsp;<br><br><br><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong><span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) ; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) ;">&nbsp;Medir&nbsp;</span></strong><br></span>Consiste en determinar la&nbsp;<strong>magnitud</strong>&nbsp;(propiedad) de un cuerpo por comparación con la magnitud de otro cuerpo que se toma como referencia&nbsp;<strong>(unidad o patrón de medida)</strong>.&nbsp;<br><br>Para la descripción de un sistema físico es imprescindible la&nbsp;<strong>medición</strong>, ya&nbsp;que permite establecer relaciones cuantitativas entre las diversas variables&nbsp;que intervienen.&nbsp;<br><br>Las magnitudes físicas se miden utilizando&nbsp;<strong>instrumentos calibrados</strong>; así, la masa de un cuerpo se puede medir en una&nbsp;balanza de platillos, comparándola con la de otros cuerpos de masa conocida).<br><br>El resultado de la medición de una magnitud se expresa mediante un&nbsp;<strong><span style="color: rgb(0, 128, 255);">número</span></strong>&nbsp;y una&nbsp;<strong><span style="color: rgb(0, 128, 255);">unidad</span></strong>. Por ejemplo, si se mide la&nbsp;<em>altura (l)</em>&nbsp;de una persona&nbsp;y se toma como unidad el&nbsp;<em>metro (m)</em>, el resultado debe expresarse de&nbsp;esta manera:&nbsp;<em>l = 1.80 m</em>, donde el número&nbsp;<em>1.80</em>&nbsp;indica cuántas unidades&nbsp;(metros en este caso) están contenidas en la magnitud medida (la altura&nbsp;de la persona). Decir únicamente que la altura de la persona es&nbsp;<em>1.80</em>&nbsp;no&nbsp;tendría significado, ya que podría tratarse de&nbsp;<em>1.80 centímetros, 1.80&nbsp;milímetros, etc</em>.<br><br><br><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong><span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) ; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) ;">&nbsp;Sistema de unidades&nbsp;</span></strong><br></span>Es el conjunto de magnitudes y sus respectivas unidades de medición. Existen varios <strong>sistemas de unidades</strong>.<br><br>El sistema <strong><span style="color: rgb(0, 128, 255);">cegesimal</span></strong>. Que esta en desuso.<br><br>El sistema <strong><span style="color: rgb(0, 128, 255);">Ingles</span></strong>. Usado principalmente en los países de habla inglesa.<br><br>El <strong><span style="color: rgb(0, 128, 255);">Sistema Internacional</span></strong>. De uso generalizado en todos los países para aplicaciones de Ingeniería y ciencias. Este sistema es el que usamos en México.<br><br>A continuación tenemos una tabla con las magnitudes fundamentales en diferentes sistemas de unidades.</p>
+            <div class="table-responsive mt-3">
+                <table class="table table-striped table-sm table-bordered border-dark">
+                    <thead class="table-primary">
+                        <tr>
+                            <th class="text-center" scope="col">Magnitud</th>
+                            <th class="text-center" scope="col"><strong>SI (Sistema internacional)</strong><br></th>
+                            <th class="text-center" scope="col"><strong>CGS (Sistema cegesimal)</strong><br></th>
+                            <th class="text-center" scope="col"><strong>Inglés</strong><br></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Longitud</td>
+                            <td class="text-center">metro (m)</td>
+                            <td class="text-center">centimetro (cm)</td>
+                            <td class="text-center">pie (ft)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Masa</td>
+                            <td class="text-center">kilogramo (kg)</td>
+                            <td class="text-center">gramo (g)</td>
+                            <td class="text-center">libra (lb)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Tiempo</td>
+                            <td class="text-center">segundo (s)</td>
+                            <td class="text-center">segundo (s)</td>
+                            <td class="text-center">segundo (s)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Intensidad de corriente</td>
+                            <td class="text-center">Amperio (A)</td>
+                            <td class="text-center">estatamperio (statA)</td>
+                            <td class="text-center">Amperio (A)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Temperatura</td>
+                            <td class="text-center">kelvin (°K)</td>
+                            <td class="text-center">centigrado (°C)</td>
+                            <td class="text-center">fahrenheit (°F)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Cantidad de sustancia</td>
+                            <td class="text-center">mol (mol)</td>
+                            <td class="text-center">mol (mol)</td>
+                            <td class="text-center">mol (mol)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Intensidad luminosa</td>
+                            <td class="text-center">candela (cd)</td>
+                            <td class="text-center">candela (cd)</td>
+                            <td class="text-center">candela (cd)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;">En la tabla siguiente tenemos algunas magnitudes derivadas.<br></p>
+            <div class="table-responsive mt-3">
+                <table class="table table-striped table-sm table-bordered border-dark">
+                    <thead class="table-success">
+                        <tr>
+                            <th class="text-center">Magnitud</th>
+                            <th class="text-center">SI</th>
+                            <th class="text-center">CGS</th>
+                            <th class="text-center">Sistema Inglés</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Área o superﬁcie</td>
+                            <td class="text-center">m<sup>2</sup></td>
+                            <td class="text-center">cm<sup>2</sup></td>
+                            <td class="text-center">ft<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Volumen</td>
+                            <td class="text-center">m<sup>3</sup></td>
+                            <td class="text-center">cm<sup>3</sup></td>
+                            <td class="text-center">ft<sup>3</sup></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Velocidad</td>
+                            <td class="text-center">m/s</td>
+                            <td class="text-center">cm/s</td>
+                            <td class="text-center">ft/s</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Aceleración</td>
+                            <td class="text-center">m/s<sup>2</sup></td>
+                            <td class="text-center">cm/s<sup>2</sup></td>
+                            <td class="text-center">ft/s<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Fuerza</td>
+                            <td class="text-center">N (kg · m/s<sup>2</sup>)</td>
+                            <td class="text-center">Dina (g · cm/s<sup>2</sup>)</td>
+                            <td class="text-center">Poundal (lb · ft/s<sup>2</sup>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;">Ahora veamos el concepto de algunas de las anteriores magnitudes que son la base para iniciar el estudio de la Física.<br><br><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong>&nbsp;<span style="color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) ; background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) ;">Longitud</span>&nbsp;</strong></span>Magnitud física que expresa la distancia entre dos puntos. La unidad básica de longitud en el Sistema Internacional es el&nbsp;<strong>metro (m)</strong>.&nbsp;<br><br><strong><span style="color: rgb(0, 91, 191);">Metro patrón</span></strong><br>Durante mucho tiempo se tomó como definición de metro la distancia existente entre dos marcas hechas en una barra de platino e iridio (distancia denominada&nbsp;<strong>metro patrón</strong>).<br><br><img class="img-fluid" data-aos="fade" data-aos-duration="3000" src="assets/img/Metro%20Patron.png" style="border-radius: 6px;box-shadow: 7px 7px 11px 0px var(--bs-black);border: 3px solid var(--bs-black);" width="390" height="190"><br><br>La definición actual del&nbsp;<strong>metro patrón</strong>&nbsp;corresponde a la longitud recorrida por la luz en el vacío durante un intervalo de tiempo de&nbsp;<strong><em>1/(299,792,458) de segundo</em></strong>.</p>
+            <div class="row d-flex align-items-lg-center" style="margin-top: 16px;">
+                <div class="col-3"></div>
+                <div class="col" style="margin-bottom: 16px;text-align: center;padding-right: 0px;padding-left: 0px;">
+                    <h6 style="border: 6px solid var(--bs-blue);"><strong><span style="color: rgb(0, 128, 255);">Instrumentos de medición</span></strong></h6>
+                    <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" id="carousel-1">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/Cintametrica.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Cinta métrica</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/Escalimetro.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Escalímetro</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/Flexometro.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Flexómetro</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/MedidorLaser.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Medidor laser</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/Micrometro.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Micrómetro</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/Vernier.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Vernier</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a>
+                            <a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#carousel-1" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#carousel-1" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#carousel-1" data-bs-slide-to="5"></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;"><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong>&nbsp;Masa&nbsp;</strong></span>Es una propiedad general de la materia que expresa la inercia o resistencia al cambio de movimiento de un cuerpo. La unidad básica de masa en el Sistema Internacional es el&nbsp;<strong>kilogramo (kg)</strong>.<br><br><strong><span style="color: rgb(0, 91, 191);">Kilogramo patrón</span></strong><br>Un&nbsp;<strong>kilogramo patrón</strong>&nbsp;equivale a la&nbsp;<strong><em>masa de un cilindro hecho de platino e iridio</em></strong>, el cual se conserva&nbsp;como modelo en la Oficina Internacional de Pesas y Medidas localizada en París, Francia.<br><br><img class="img-fluid" data-aos="fade" data-aos-duration="3000" src="assets/img/KilogramoPatron.jpg" style="border-radius: 6px;box-shadow: 7px 7px 11px 0px var(--bs-black);border: 3px solid var(--bs-black);" width="390" height="287"><br></p>
+            <div class="row d-flex align-items-lg-center" style="margin-top: 16px;">
+                <div class="col-3"></div>
+                <div class="col" style="margin-bottom: 16px;text-align: center;padding-right: 0px;padding-left: 0px;">
+                    <h6 style="border: 6px solid var(--bs-blue);"><strong><span style="color: rgb(0, 128, 255);">Instrumentos de medición</span></strong></h6>
+                    <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" id="carousel-2">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/BalanzaAnalitica.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Bascula analítica</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/BasculaCasera.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Bascula casera</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/BasculaDigital.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Bascula digital</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/BasculaMecanica.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Bascula mecánica</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/BasculaRomana.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Bascula romana</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/Balanza.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Balanza</p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="carousel-control-prev" href="#carousel-2" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a>
+                            <a class="carousel-control-next" href="#carousel-2" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel-2" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carousel-2" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carousel-2" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#carousel-2" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#carousel-2" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#carousel-2" data-bs-slide-to="5"></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;"><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong>&nbsp;Tiempo&nbsp;</strong></span>Es una magnitud física con que se mide la duración o separación de acontecimientos. El tiempo permite ordenar los sucesos en secuencias, estableciendo un pasado, un futuro y un tercer conjunto de eventos ni pasados ni futuros respecto a otro. La unidad de tiempo en el Sistema Internacional es el&nbsp;<strong>segundo (s)</strong>.<br><br><strong><span style="color: rgb(0, 91, 191);">Segundo patrón</span></strong><br>Se define como la duración de&nbsp;<strong>9,192,631,770 ciclos de la radiación</strong>&nbsp;de cierta transición del electrón en el átomo de cesio de masa atómica 133.<br></p>
+            <div class="row d-flex align-items-lg-center" style="margin-top: 16px;">
+                <div class="col-3"></div>
+                <div class="col" style="margin-bottom: 16px;text-align: center;padding-right: 0px;padding-left: 0px;">
+                    <h6 style="border: 6px solid var(--bs-blue);"><strong><span style="color: rgb(0, 128, 255);">Instrumentos de medición</span></strong></h6>
+                    <div class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" id="carousel-3">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/RelojBolsillo.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Reloj de bolsillo</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/RelojDespertador.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Reloj despertador</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/RelojPared.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Reloj de pared</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/RelojPared1.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Reloj de péndulo</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/RelojPulseraA.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Reloj de pulsera mecánico</p>
+                                </figure>
+                            </div>
+                            <div class="carousel-item">
+                                <figure class="figure">
+                                    <img class="img-fluid figure-img" src="assets/img/RelojPulseraD.jpg" style="border-radius: 2px;border: 6px ridge var(--bs-blue);">
+                                    <p class="text-white text-bg-primary" style="border-style: solid;border-color: var(--bs-black);">Reloj de pulsera digital<br></p>
+                                </figure>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="carousel-control-prev" href="#carousel-3" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a>
+                            <a class="carousel-control-next" href="#carousel-3" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel-3" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carousel-3" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carousel-3" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#carousel-3" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#carousel-3" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#carousel-3" data-bs-slide-to="5"></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;"><span class="text-bg-primary d-flex" data-aos="flip-down" data-aos-duration="2000" style="border: 6px ridge var(--bs-yellow);"><strong>&nbsp;Uso de prefijos en el Sistema Internacional de Medidas (SI)</strong></span>Por lo general los símbolos de las <strong>unidades de medida</strong> y de los <strong>prefijos </strong>se escriben con minúsculas, a menos que se trate de nombres propios, en tal caso será con mayúsculas. Se anotan en singular y sin punto.<br><br>Por tanto,&nbsp;debemos escribir:<br>&nbsp; &nbsp;Para kilogramo:&nbsp;<strong>kg</strong>&nbsp;y no&nbsp;<strong>Kg</strong><br>&nbsp; &nbsp;Para kilómetro:&nbsp;<strong>km</strong>&nbsp;y no&nbsp;<strong>Km</strong><br>&nbsp; &nbsp;Para gramo:&nbsp;<strong>g</strong>&nbsp;y no&nbsp;<strong>gr</strong><br>&nbsp; &nbsp;Para newton:&nbsp;<strong>N</strong>&nbsp;y no&nbsp;<strong>n</strong>&nbsp;ni&nbsp;<strong>Nw</strong><br><br>En el sistema internacional de medidas se utilizan&nbsp;<strong>prefijos</strong>&nbsp;para indicar cantidades que son mayores (<strong>múltiplos</strong>) o menores (<strong>submúltiplos</strong>) a la unidad de medida.<br><br>Para usar los prefijos solo tenemos que colocar el símbolo del prefijo antes del símbolo de la unidad.<br><br>Por ejemplo, 20&nbsp;<strong><span style="color: rgb(255, 0, 0);">kilo</span><span style="color: rgb(0, 128, 255);">metros</span></strong>&nbsp;será 20&nbsp;<strong><span style="color: rgb(255, 0, 0);">k</span><span style="color: rgb(0, 128, 255);">m</span></strong>, donde&nbsp;<strong><span style="color: rgb(255, 0, 0);">k</span></strong>&nbsp;es el símbolo del prefijo&nbsp;<strong><span style="color: rgb(255, 0, 0);">kilo</span></strong>&nbsp;y&nbsp;<strong><span style="color: rgb(0, 128, 255);">m</span></strong>&nbsp;el símbolo de la unidad&nbsp;<strong><span style="color: rgb(0, 128, 255);">metro</span></strong>.<br><br>Otro ejemplo, es 100&nbsp;<strong><span style="color: rgb(255, 0, 0);">micro</span><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">segundos</span></strong>, 100&nbsp;<strong><span style="color: rgb(255, 0, 0);">µ</span><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">s</span></strong>, donde&nbsp;<strong><span style="color: rgb(255, 0, 0);">µ</span></strong>&nbsp;es el símbolo del prefijo&nbsp;<strong><span style="color: rgb(255, 0, 0);">micro</span></strong>&nbsp;y&nbsp;<strong><span style="color: rgb(0, 128, 255);">s</span></strong>&nbsp;es el símbolo de la unidad&nbsp;<strong><span style="color: rgb(0, 128, 255);">segundo</span></strong>.</p>
+            <div class="table-responsive mt-3" data-pg-ia="{&quot;l&quot;:[]}">
+                <table class="table table-striped table-sm table-bordered border-dark">
+                    <thead class="table-info">
+                        <tr>
+                            <th class="text-center">Prefijo</th>
+                            <th class="text-center">Simbolo</th>
+                            <th class="text-center">Factor</th>
+                            <th class="text-center">Equivalencia en unidades</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center" scope="row">yotta</td>
+                            <td class="text-center">Y</td>
+                            <td class="text-center">10<sup>24</sup></td>
+                            <td class="text-center">cuatrillón</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">zetta</td>
+                            <td class="text-center">Z</td>
+                            <td class="text-center">10<sup>21</sup></td>
+                            <td class="text-center">mil trillones</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">exa</td>
+                            <td class="text-center">E</td>
+                            <td class="text-center">10<sup>18</sup></td>
+                            <td class="text-center">trillón</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">peta</td>
+                            <td class="text-center">P</td>
+                            <td class="text-center">10<sup>15</sup><br></td>
+                            <td class="text-center">mil billones</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">tera</td>
+                            <td class="text-center">T</td>
+                            <td class="text-center">10<sup>12</sup></td>
+                            <td class="text-center">billón</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">giga</td>
+                            <td class="text-center">G</td>
+                            <td class="text-center">10<sup>9</sup><br></td>
+                            <td class="text-center">mil millones</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">mega</td>
+                            <td class="text-center">M</td>
+                            <td class="text-center">10<sup>6</sup></td>
+                            <td class="text-center">millón<br></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">kilo</td>
+                            <td class="text-center">k</td>
+                            <td class="text-center">10<sup>3</sup><br></td>
+                            <td class="text-center">mil</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">ecto</td>
+                            <td class="text-center">h</td>
+                            <td class="text-center">10<sup>2</sup><br></td>
+                            <td class="text-center">cien</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">deca</td>
+                            <td class="text-center">da</td>
+                            <td class="text-center">10<sup>1</sup><br></td>
+                            <td class="text-center">diez</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">sin prefijo</td>
+                            <td class="text-center">----</td>
+                            <td class="text-center">10<sup>0</sup>&nbsp;= 1<span style="font-size: 18px;"></span><br></td>
+                            <td class="text-center">----</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">deci</td>
+                            <td class="text-center">d</td>
+                            <td class="text-center">10<sup>-1</sup><br></td>
+                            <td class="text-center">decima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">centi</td>
+                            <td class="text-center">c</td>
+                            <td class="text-center">10<sup>-2</sup><br></td>
+                            <td class="text-center">centesima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">mili</td>
+                            <td class="text-center">m</td>
+                            <td class="text-center">10<sup>-3</sup><br></td>
+                            <td class="text-center">milesima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">micro</td>
+                            <td class="text-center">µ</td>
+                            <td class="text-center">10<sup>-6</sup><br></td>
+                            <td class="text-center">millonésima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">nano</td>
+                            <td class="text-center">n</td>
+                            <td class="text-center">10<sup>-9</sup><br></td>
+                            <td class="text-center">mil millonésima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">pico</td>
+                            <td class="text-center">p</td>
+                            <td class="text-center">10<sup>-12</sup></td>
+                            <td class="text-center">billonésima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">femto</td>
+                            <td class="text-center">f</td>
+                            <td class="text-center">10<sup>-15</sup><br></td>
+                            <td class="text-center">mil billonésima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">atto</td>
+                            <td class="text-center">a</td>
+                            <td class="text-center">10<sup>-18</sup><br></td>
+                            <td class="text-center">trillonésima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">zepto</td>
+                            <td class="text-center">z</td>
+                            <td class="text-center">10<sup>-21</sup><br></td>
+                            <td class="text-center">mil trillonésima</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center" scope="row">yocto</td>
+                            <td class="text-center">y</td>
+                            <td class="text-center">10<sup>-24</sup><br></td>
+                            <td class="text-center">cuatrillonésima</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="text-align: justify;margin-top: 16px;padding: 20px;padding-top: 15px;padding-bottom: 15px;border: 3px solid var(--bs-blue);border-radius: 20px;box-shadow: 0px 0px 17px var(--bs-blue);margin-bottom: 0px;">De manera que si decimos:<br>&nbsp; &nbsp;<strong><span style="color: rgb(255, 0, 0);">kilo</span></strong>gramo, nos referimos a&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">mil</span></strong>&nbsp;gramos<br>&nbsp; &nbsp;3&nbsp;<strong><span style="color: rgb(255, 0, 0);">kiló</span></strong>metros, 3&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">mil</span></strong>&nbsp;metros<br>&nbsp; &nbsp;124&nbsp;<strong><span style="color: rgb(255, 0, 0);">mega</span></strong>segundos, 124&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">millónes</span></strong>&nbsp;de segundos<br>&nbsp; &nbsp;18,325&nbsp;<strong><span style="color: rgb(255, 0, 0);">tera</span></strong>piés, 18,325&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">billónes</span></strong>&nbsp;de pies, respectivamente.<br><br>Si mencionamos:<br>&nbsp; &nbsp;<strong><span style="color: rgb(255, 0, 0);">nanó</span></strong>metro, hablamos de 1&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">mil millonésima</span></strong>&nbsp;de metro<br>&nbsp; &nbsp;8&nbsp;<strong><span style="color: rgb(255, 0, 0);">femto</span></strong>gramos, 8&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">mil billonésima</span></strong>&nbsp;de gramo<br>&nbsp; &nbsp;2,345&nbsp;<strong><span style="color: rgb(255, 0, 0);">zepto</span></strong>segundos, 2,345&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">mil trillonesima</span></strong>&nbsp;de segundo<br>&nbsp; &nbsp;123,425&nbsp;<strong><span style="color: rgb(255, 0, 0);">micro</span></strong>piés, 123,425&nbsp;<strong><span style="color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) ;">millonésimas</span></strong>&nbsp;de pie, respectivamente.<br></p>
+            <div style="box-shadow: 0px 0px 9px 6px var(--bs-purple);margin-top: 16px;margin-bottom: 16px;border-width: 3px;border-style: solid;border-radius: 20px;padding: 3px;">
+                <h6 style="color: var(--bs-purple);background: var(--bs-warning);max-width: 297px;border: 3px solid var(--bs-black);padding-left: 24px;margin-left: -19px;margin-top: 19px;"><strong>Recursos adicionales</strong></h6>
+                <p><strong>&nbsp; Haz click en el siguiente enlace para ver tutoriales relacionados con el tema.</strong><br></p>
+                <div class="container bg-white border-2 border-dark d-flex flex-row justify-content-evenly flex-wrap border pb-3 pt-3 rounded rounded-4" style="background: radial-gradient(var(--bs-white) 0%, var(--bs-blue) 98%);">
+                    <a href="https://www.youtube.com/watch?v=tn_1LR0e_Ps&amp;list=PLZ6TIj4tHEIu46weCOzrxHJoINiwmgyeI&amp;index=1" target="_blank"><img class="rounded img-fluid border-2 border-dark border mb-2 mt-3 rounded-1" data-aos="flip-down" src="assets/img/VideoUnidades.jpg" style="width: 500px;box-shadow: 10px 10px 0px var(--bs-black);" data-pg-ia="{&quot;l&quot;:[]}" width="500" height="476"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="height: 100px;"></div>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/aos.min.js"></script>
+        <script src="assets/js/bs-init.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+        <script src="assets/js/Simple-Slider.js"></script>
+    </body>
+</html>
